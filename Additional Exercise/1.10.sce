@@ -38,5 +38,8 @@ disp(Fs);
 disp("Folding frequency (Hz):");
 disp(Fs/2);
 
+disp("Nyquist rate (Hz):");
+disp(1800);
+
 disp("Quantization resolution (V):");
 disp(Delta);
