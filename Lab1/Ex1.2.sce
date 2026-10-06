@@ -30,7 +30,7 @@ legend(["x(n)"])
 // Quantization using truncated method
 subplot(3,1,3)
 delta = 0.1;
-xqn = floor(xn/delta)*delta;
+xqn = fix(xn/delta)*delta;
 plot2d3(n, xqn)
 title("Quantized signal xq(n)")
 legend(["xq(n)"])
