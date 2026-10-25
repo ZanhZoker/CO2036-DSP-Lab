@@ -39,3 +39,4 @@ plot2d3(ny, Ey);
 xtitle("Energy per Sample of y(n)", "n", "|y(n)|^2");
 a = gca();
 a.data_bounds = [-1,0;7,19];
+exit;
