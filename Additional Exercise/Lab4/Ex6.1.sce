@@ -11,10 +11,11 @@ y = zeros(1, N+M-1);
 for n = 1:length(y)
     for k = 1:M
         j = n-k+1;
-        if j >= 1 & j <= N then
+        if j >= 1 & j <= N then         
             y(n) = y(n) + h(k)*x(j);
         end
     end
 end
 
-disp(y, "Linear Convolution:");
+disp(y, "Folding and Shifting:");
+exit;

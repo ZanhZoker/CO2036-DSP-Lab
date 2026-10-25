@@ -16,4 +16,5 @@ end
 y = H*x';
 
 disp(H, "Convolution Matrix:");
-disp(y', "Linear Convolution:");
+disp(y', "Matrix Method:");
+exit;
